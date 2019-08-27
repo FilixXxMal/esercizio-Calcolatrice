@@ -29,7 +29,7 @@ export class AppComponent {
       this.fillVect(Number(n1.value) ,Number(n2.value));
       return false;
   }
-  divisone(n1: HTMLInputElement, n2:HTMLInputElement ) :Boolean {
+  divisione(n1: HTMLInputElement, n2:HTMLInputElement ) :Boolean {
       this.r = Number(n1.value) / Number(n2.value);
 
       this.fillVect(Number(n1.value) ,Number(n2.value));
